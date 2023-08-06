@@ -1,0 +1,1505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Actions Pack 2.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/actions-pack\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-29T21:12:27+00:00\n"
+"PO-Revision-Date: 2021-05-29 21:20+0000\n"
+"Language: hi_IN\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: actions-pack\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.4.4; wp-5.7.2\n"
+
+#. Plugin Name of the plugin
+#: plugin.php:107
+#: plugin.php:123
+#: plugin.php:141
+msgid "Actions Pack"
+msgstr "क्रियाएं पैक"
+
+#. Plugin URI of the plugin
+msgid "https://actions-pack.com"
+msgstr "https://actions-pack.com"
+
+#. Description of the plugin
+msgid "Supercharge Elementor's default form widget with premium features & actions"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wpfolk"
+msgstr "Wpfolk"
+
+#. Author URI of the plugin
+msgid "https://wpfolk.com"
+msgstr "https://wpfolk.com"
+
+#: actions/google-sheet.php:24
+#: actions/google-sheet.php:249
+msgid "Google Sheet"
+msgstr "गूगल शीट"
+
+#: actions/google-sheet.php:100
+msgid "Could not resolve API host. Try again!!!"
+msgstr "एपीआई होस्ट को हल नहीं कर सका। फिर कोशिश करो!!!"
+
+#: actions/google-sheet.php:108
+msgid "Something Went Wrong. Try Again!!!"
+msgstr "कुछ गलत हो गया । फिर कोशिश करो!!!"
+
+#: actions/google-sheet.php:154
+#: actions/zoho-crm.php:334
+msgid "Powered by Actions Pack (%s)"
+msgstr "क्रिया पैक द्वारा संचालित (%s)"
+
+#: actions/google-sheet.php:199
+msgid "<hr id=\"ap_google_sheet\">Google Sheet"
+msgstr "<hr id=\"ap_google_sheet\">गूगल शीट"
+
+#: actions/google-sheet.php:201
+msgid "Enable Google Sheets API <a href=\"%s\" target=\"_blank\">here</a>, enter a project name, select application type as web server, paste <span class=\"ap-google-sheet-redirect-uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "<a href=\"%s\" target=\"_blank\">यहां</a>गूगल शीट्स एपीआई को सक्षम करें, एक परियोजना का नाम दर्ज करें, वेब सर्वर के रूप में आवेदन प्रकार का चयन करें, रीडायरेक्ट उड़ी के रूप में <span class=\"ap-google-sheet-redirect-uri\"><strong>% एस</strong></span> पेस्ट करें और क्रेडेंशियल्स प्राप्त करें।"
+
+#: actions/google-sheet.php:205
+#: actions/google-sheet.php:310
+#: actions/zoho-crm.php:352
+#: actions/zoho-crm.php:442
+msgid "Client ID"
+msgstr "क्लाइंट आईडी"
+
+#: actions/google-sheet.php:211
+#: actions/google-sheet.php:323
+#: actions/zoho-crm.php:358
+#: actions/zoho-crm.php:455
+msgid "Client Secret"
+msgstr "क्लाइंट सीक्रेट"
+
+#: actions/google-sheet.php:234
+#: actions/google-sheet.php:370
+#: actions/zoho-crm.php:366
+#: actions/zoho-crm.php:519
+msgid "Validate Credentials"
+msgstr "प्रमाण पत्र मान्य करें"
+
+#: actions/google-sheet.php:259
+#: actions/zoho-crm.php:391
+msgid "API Credentials <span class=\"ap-required\">*</span>"
+msgstr "एपीआई क्रेडेंशियल्स <span class=\"ap-required\">*</span>"
+
+#: actions/google-sheet.php:261
+#: actions/google-sheet.php:385
+#: actions/login.php:366
+#: actions/login.php:684
+#: actions/login.php:708
+#: actions/login.php:746
+#: actions/login.php:956
+#: actions/login.php:999
+#: actions/login.php:1060
+#: actions/profile.php:467
+#: actions/profile.php:624
+#: actions/profile.php:759
+#: actions/register.php:856
+#: actions/register.php:1129
+#: actions/register.php:1165
+#: actions/register.php:1254
+#: actions/register.php:1429
+#: actions/register.php:1626
+#: actions/register.php:1695
+#: actions/register.php:1790
+#: actions/reset-pass.php:227
+#: actions/reset-pass.php:598
+#: actions/reset-pass.php:672
+#: actions/reset-pass.php:775
+#: actions/zoho-crm.php:393
+#: actions/zoho-crm.php:534
+#: classes/common.php:309
+#: classes/common.php:389
+#: classes/common.php:438
+msgid "Default"
+msgstr "चूक"
+
+#: actions/google-sheet.php:262
+#: actions/google-sheet.php:386
+#: actions/login.php:685
+#: actions/login.php:709
+#: actions/login.php:747
+#: actions/login.php:957
+#: actions/login.php:1000
+#: actions/login.php:1061
+#: actions/profile.php:468
+#: actions/profile.php:625
+#: actions/profile.php:760
+#: actions/register.php:1130
+#: actions/register.php:1166
+#: actions/register.php:1255
+#: actions/register.php:1430
+#: actions/register.php:1627
+#: actions/register.php:1696
+#: actions/register.php:1791
+#: actions/reset-pass.php:599
+#: actions/reset-pass.php:673
+#: actions/reset-pass.php:776
+#: actions/zoho-crm.php:394
+#: actions/zoho-crm.php:535
+#: classes/common.php:310
+#: classes/common.php:439
+msgid "Custom"
+msgstr "परम्परा"
+
+#: actions/google-sheet.php:271
+#: actions/login.php:864
+#: actions/reset-pass.php:692
+#: actions/sms.php:84
+#: actions/zoho-crm.php:403
+msgid "API Source"
+msgstr "एपीआई स्रोत"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/register.php:1546
+#: actions/reset-pass.php:706
+#: actions/sms.php:100
+#: actions/zoho-crm.php:419
+msgid "To use default credentials, make sure you have already set the credentials"
+msgstr "डिफ़ॉल्ट क्रेडेंशियल्स का उपयोग करने के लिए, सुनिश्चित करें कि आप पहले से ही क्रेडेंशियल्स सेट कर चुके हैं"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/login.php:891
+#: actions/register.php:1546
+#: actions/register.php:1558
+#: actions/reset-pass.php:706
+#: actions/reset-pass.php:717
+#: actions/sms.php:59
+#: actions/sms.php:100
+#: actions/sms.php:112
+#: actions/zoho-crm.php:419
+msgid "here"
+msgstr "यहाँ"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/register.php:1546
+#: actions/reset-pass.php:706
+#: actions/sms.php:100
+#: actions/zoho-crm.php:419
+msgid "You can use this field to set a custom credential for current form only"
+msgstr "आप केवल वर्तमान रूप के लिए एक कस्टम क्रेडेंशियल सेट करने के लिए इस फ़ील्ड का उपयोग कर सकते हैं"
+
+#: actions/google-sheet.php:299
+msgid "Enable Google Sheets API <a href=\"%s\" target=\"_blank\" style=\"color:cornflowerblue\">here</a>, enter a project name, select application type as web server, paste <span class=\"ap-google-sheet-redirect-uri\" style=\"font-size:10px\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color:cornflowerblue\">यहां</a>गूगल शीट्स एपीआई को सक्षम करें, एक परियोजना का नाम दर्ज करें, वेब सर्वर के रूप में आवेदन प्रकार का चयन करें, रीडायरेक्ट उड़ी के रूप में <span class=\"ap-google-sheet-redirect-uri\" style=\"font-size:10px\"><strong>% एस</strong></span> पेस्ट करें और क्रेडेंशियल्स प्राप्त करें।"
+
+#: actions/google-sheet.php:383
+msgid "Spreadsheet Details <span class=\"ap-required\">*</span>"
+msgstr "स्प्रेडशीट विवरण <span class=\"ap-required\">*</span>"
+
+#: actions/google-sheet.php:395
+msgid "Spreadsheet URL"
+msgstr "स्प्रेडशीट यूआरएल"
+
+#: actions/google-sheet.php:412
+msgid "Sheet Name"
+msgstr "शीट नाम"
+
+#: actions/google-sheet.php:426
+#: actions/profile.php:477
+#: actions/register.php:1138
+#: actions/register.php:1174
+#: actions/register.php:1201
+#: actions/register.php:1263
+#: actions/register.php:1438
+#: actions/register.php:1656
+#: actions/zoho-crm.php:589
+msgid "Form Field"
+msgstr "फॉर्म फ़ील्ड"
+
+#: actions/google-sheet.php:436
+#: actions/zoho-crm.php:599
+msgid "Meta Data"
+msgstr "मेटा डेटा"
+
+#: actions/google-sheet.php:439
+#: actions/zoho-crm.php:602
+msgid "Date"
+msgstr "दिनांक"
+
+#: actions/google-sheet.php:440
+#: actions/zoho-crm.php:603
+msgid "Time"
+msgstr "समय"
+
+#: actions/google-sheet.php:441
+#: actions/zoho-crm.php:604
+msgid "Page URL"
+msgstr "पेज यूआरएल"
+
+#: actions/google-sheet.php:442
+#: actions/zoho-crm.php:605
+msgid "User Agent"
+msgstr "उपयोगकर्ता एजेंट"
+
+#: actions/google-sheet.php:443
+#: actions/zoho-crm.php:606
+msgid "Remote IP"
+msgstr "रिमोट आईपी"
+
+#: actions/google-sheet.php:444
+#: actions/zoho-crm.php:607
+msgid "Credit"
+msgstr "उधार"
+
+#: actions/google-sheet.php:456
+msgid "Sheet Column"
+msgstr "शीट कॉलम"
+
+#: actions/google-sheet.php:468
+msgid "Column ID"
+msgstr "कॉलम आईडी"
+
+#: actions/google-sheet.php:481
+msgid "Field Mapping"
+msgstr "फील्ड मैपिंग"
+
+#: actions/login.php:96
+msgid "You can't login to our site now. Your profile is being verified. You will be notified once we complete the verification."
+msgstr "अब आप हमारी साइट पर लॉगिन नहीं कर सकते। आपकी प्रोफ़ाइल सत्यापित की जा रही है। सत्यापन पूरा होने के बाद आपको सूचित कर दिया जाएगा।"
+
+#: actions/login.php:103
+msgid "You have not verified your %s yet. Click %sHere%s to enter the secret code we already sent you."
+msgstr "आपने अभी तक अपना % सत्यापित नहीं किया है। गुप्त कोड दर्ज करने के लिए %sHere% s पर क्लिक करें जिसे हमने पहले ही आपको भेजा है।"
+
+#: actions/login.php:111
+msgid "You have not verified your %s yet. Click on the verification link we sent to your %s. %s %s"
+msgstr "आपने अभी तक अपना % सत्यापित नहीं किया है। आपके % एस% % एस एस पर भेजे गए सत्यापन लिंक पर क्लिक करें"
+
+#: actions/login.php:115
+msgid "Enter your "
+msgstr "अपने दर्ज करें "
+
+#: actions/login.php:136
+msgid "<strong>Error</strong>: The phone field is empty."
+msgstr "<strong>एरो</strong>: फोन फील्ड खाली है ।"
+
+#: actions/login.php:140
+msgid "<strong>Error</strong>: The password field is empty."
+msgstr "<strong>एरो</strong>: पासवर्ड फ़ील्ड खाली है।"
+
+#: actions/login.php:156
+msgid "Unknown phone number. Check again or try your username."
+msgstr "अज्ञात फोन नंबर। फिर से देखें या अपना उपयोगकर्ता नाम आज़माएं।"
+
+#. translators: %s: Phone Number.
+#: actions/login.php:173
+msgid "<strong>Error</strong>: The password you entered for the phone number %s is incorrect."
+msgstr "<strong>एर</strong>: आपके द्वारा फोन नंबर % एस के लिए दर्ज किया गया पासवर्ड गलत है।"
+
+#: actions/login.php:206
+msgid "invalid nonce"
+msgstr "अमान्य नाके"
+
+#: actions/login.php:215
+#: actions/reset-pass.php:64
+msgid "Too many failed attempts. Try after <span class=\"apCountDown\">%s</span> minutes!"
+msgstr "बहुत सारे असफल प्रयास । % <span class=\"apCountDown\">एस</span> मिनट के बाद कोशिश करो!"
+
+#: actions/login.php:239
+#: actions/reset-pass.php:137
+msgid "Verified"
+msgstr "सत्यापित"
+
+#: actions/login.php:244
+#: actions/reset-pass.php:149
+msgid "Invalid Code"
+msgstr "अमान्य कोड"
+
+#: actions/login.php:265
+#: actions/register.php:334
+#: actions/reset-pass.php:100
+msgid "Email Sent "
+msgstr "ईमेल भेजा गया "
+
+#: actions/login.php:288
+#: actions/register.php:373
+#: actions/reset-pass.php:123
+msgid "SMS Sent "
+msgstr "एसएमएस भेजा "
+
+#: actions/login.php:320
+#: actions/register.php:810
+#: actions/reset-pass.php:192
+msgid "OTP"
+msgstr "Otp"
+
+#: actions/login.php:354
+#: actions/register.php:844
+#: actions/reset-pass.php:215
+msgid "Container"
+msgstr "कंटेनर"
+
+#: actions/login.php:362
+#: actions/register.php:852
+#: actions/reset-pass.php:223
+msgid "Position"
+msgstr "स्थिति"
+
+#: actions/login.php:367
+#: actions/register.php:857
+#: actions/reset-pass.php:228
+msgid "Absolute"
+msgstr "पूर्ण"
+
+#: actions/login.php:368
+#: actions/register.php:858
+#: actions/reset-pass.php:229
+msgid "Fixed"
+msgstr "निश्चित"
+
+#: actions/login.php:377
+#: actions/register.php:867
+#: actions/reset-pass.php:238
+msgid "Margin"
+msgstr "मार्जिन"
+
+#: actions/login.php:388
+#: actions/register.php:878
+#: actions/reset-pass.php:249
+msgid "Padding"
+msgstr "Padding"
+
+#: actions/login.php:401
+#: actions/register.php:891
+#: actions/reset-pass.php:262
+msgid "Container Background"
+msgstr "कंटेनर बैकग्राउंड"
+
+#: actions/login.php:410
+#: actions/register.php:900
+#: actions/reset-pass.php:271
+msgid "Box"
+msgstr "बॉक्स"
+
+#: actions/login.php:418
+#: actions/register.php:908
+#: actions/reset-pass.php:279
+msgid "Box Width"
+msgstr "बॉक्स चौड़ाई"
+
+#: actions/login.php:444
+#: actions/register.php:934
+#: actions/reset-pass.php:305
+msgid "Box Height"
+msgstr "बॉक्स ऊंचाई"
+
+#: actions/login.php:471
+#: actions/register.php:961
+#: actions/reset-pass.php:332
+msgid "Box Background"
+msgstr "बॉक्स बैकग्राउंड"
+
+#: actions/login.php:480
+#: actions/register.php:970
+#: actions/reset-pass.php:341
+#: classes/common.php:405
+msgid "Border"
+msgstr "सीमा रेखा"
+
+#: actions/login.php:488
+#: actions/register.php:978
+#: actions/reset-pass.php:349
+#: classes/common.php:413
+msgid "Border Radius"
+msgstr "सीमा त्रिज्या"
+
+#: actions/login.php:500
+#: actions/register.php:990
+#: actions/reset-pass.php:361
+#: classes/common.php:426
+msgid "Box Shadow"
+msgstr "बॉक्स छाया"
+
+#: actions/login.php:508
+#: actions/register.php:998
+#: actions/reset-pass.php:369
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: actions/login.php:518
+#: actions/register.php:1008
+#: actions/reset-pass.php:379
+msgid "Typography"
+msgstr "Typography"
+
+#: actions/login.php:527
+#: actions/register.php:1017
+#: actions/reset-pass.php:388
+msgid "Color"
+msgstr "रंग"
+
+#: actions/login.php:542
+#: actions/register.php:1032
+#: actions/reset-pass.php:403
+msgid "Individual Input"
+msgstr "व्यक्तिगत इनपुट"
+
+#: actions/login.php:551
+#: actions/register.php:1041
+#: actions/reset-pass.php:412
+msgid "Size"
+msgstr "आकार"
+
+#: actions/login.php:562
+#: actions/register.php:1052
+#: actions/reset-pass.php:422
+msgid "Focus Color"
+msgstr "फोकस रंग"
+
+#: actions/login.php:629
+#: actions/login.php:655
+msgid "Login"
+msgstr "लॉगिन"
+
+#: actions/login.php:665
+msgid "Login Via <span class=\"ap-required\">*</span>"
+msgstr "लॉगिन वाया <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:682
+msgid "User ID <span class=\"ap-required\">*</span>"
+msgstr "यूजर आईडी <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:693
+#: actions/login.php:732
+#: actions/login.php:965
+msgid "Field"
+msgstr "फ़ील्ड"
+
+#: actions/login.php:697
+msgid "You must create a Username, Email or Phone Form field above and map that field here."
+msgstr "आपको ऊपर एक उपयोगकर्ता नाम, ईमेल या फ़ोन फ़ॉर्म फ़ील्ड बनाना होगा और उस फ़ील्ड को यहां मैप करना होगा।"
+
+#: actions/login.php:706
+#: actions/register.php:1163
+#: actions/reset-pass.php:536
+msgid "Password <span class=\"ap-required\">*</span>"
+msgstr "पासवर्ड <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:744
+msgid "OTP <span class=\"ap-required\">*</span>"
+msgstr "ओटीपी <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:758
+#: actions/register.php:1312
+#: actions/register.php:1487
+#: actions/reset-pass.php:562
+msgid "OTP Length"
+msgstr "ओटीपी लंबाई"
+
+#: actions/login.php:771
+msgid "OTP Send Via"
+msgstr "ओटीपी के माध्यम से भेजें"
+
+#: actions/login.php:787
+#: actions/reset-pass.php:596
+msgid "Email Settings"
+msgstr "ईमेल सेटिंग्स"
+
+#: actions/login.php:796
+#: actions/profile.php:649
+#: actions/profile.php:706
+#: actions/register.php:1355
+#: actions/register.php:1718
+#: actions/reset-pass.php:617
+msgid "From Name"
+msgstr "नाम से"
+
+#: actions/login.php:807
+#: actions/profile.php:659
+#: actions/profile.php:716
+#: actions/register.php:1368
+#: actions/register.php:1731
+msgid "From Email"
+msgstr "ईमेल से"
+
+#: actions/login.php:818
+#: actions/profile.php:669
+#: actions/profile.php:736
+#: actions/register.php:1381
+#: actions/register.php:1744
+#: actions/reset-pass.php:637
+msgid "Subject"
+msgstr "विषय"
+
+#: actions/login.php:820
+msgid "Your One Time Passcode"
+msgstr "आपका वन टाइम पासकोड"
+
+#: actions/login.php:821
+#: actions/profile.php:739
+#: actions/register.php:1383
+#: actions/register.php:1384
+msgid "Thank you for registering"
+msgstr "पंजीकरण के लिए धन्यवाद"
+
+#: actions/login.php:829
+#: actions/register.php:1394
+#: actions/register.php:1757
+#: actions/reset-pass.php:645
+msgid "Send As"
+msgstr "के रूप में भेजें"
+
+#: actions/login.php:834
+#: actions/register.php:1399
+#: actions/register.php:1762
+#: actions/reset-pass.php:650
+msgid "HTML"
+msgstr "Html"
+
+#: actions/login.php:835
+#: actions/register.php:1400
+#: actions/register.php:1763
+#: actions/reset-pass.php:651
+msgid "Plain"
+msgstr "सादे"
+
+#: actions/login.php:843
+#: actions/login.php:939
+#: actions/profile.php:679
+#: actions/profile.php:746
+#: actions/register.php:1410
+#: actions/register.php:1606
+#: actions/register.php:1773
+#: actions/reset-pass.php:658
+#: actions/reset-pass.php:761
+#: actions/sms.php:170
+msgid "Message"
+msgstr "संदेश"
+
+#: actions/login.php:845
+msgid "Your one time password is [ap-login-otp]."
+msgstr "आपका वन टाइम पासवर्ड [एपी-लॉगिन-ओटीपी] है।"
+
+#: actions/login.php:855
+#: actions/reset-pass.php:670
+msgid "SMS Settings"
+msgstr "एसएमएस सेटिंग्स"
+
+#: actions/login.php:891
+#: actions/register.php:1558
+#: actions/reset-pass.php:717
+#: actions/sms.php:59
+#: actions/sms.php:112
+msgid "Click"
+msgstr "क्लिक करें"
+
+#: actions/login.php:891
+#: actions/register.php:1558
+#: actions/reset-pass.php:717
+#: actions/sms.php:112
+msgid "to get your Twilio Account SID, Auth Token and Phone number"
+msgstr "अपने Twilio खाता सिड, ऑथ टोकन और फोन नंबर प्राप्त करने के लिए"
+
+#: actions/login.php:902
+#: actions/register.php:1569
+#: actions/reset-pass.php:727
+#: actions/sms.php:44
+#: actions/sms.php:123
+msgid "Account SID"
+msgstr "खाता सिड"
+
+#: actions/login.php:914
+#: actions/register.php:1581
+#: actions/reset-pass.php:738
+#: actions/sms.php:50
+#: actions/sms.php:135
+msgid "Auth Token"
+msgstr "ऑथ टोकन"
+
+#: actions/login.php:926
+#: actions/register.php:1593
+#: actions/reset-pass.php:749
+#: actions/sms.php:56
+#: actions/sms.php:147
+msgid "From Number"
+msgstr "संख्या से"
+
+#: actions/login.php:941
+#: actions/login.php:942
+msgid "Your one time password is %s."
+msgstr "आपका वन टाइम पासवर्ड % एस है।"
+
+#: actions/login.php:954
+msgid "Remember Me"
+msgstr "मुझे याद रखें"
+
+#: actions/login.php:970
+msgid "You must create a form field of type <strong>Acceptance</strong> which will be used as Remember me checkbox"
+msgstr "आपको टाइप <strong>एक्सेप्शन का एक फॉर्म फील्ड बनाना होगा</strong> जिसका उपयोग मुझे चेकबॉक्स याद रखने के रूप में किया जाएगा"
+
+#: actions/login.php:976
+msgid "Duration (In Days)"
+msgstr "अवधि (दिनों में)"
+
+#: actions/login.php:997
+#: actions/register.php:1813
+msgid "Redirection"
+msgstr "पुनर्निर्देशन"
+
+#: actions/login.php:1008
+msgid "Redirect After Login (role wise)"
+msgstr "लॉगिन के बाद रीडायरेक्ट (भूमिका के लिहाज से)"
+
+#: actions/login.php:1019
+#: actions/register.php:1829
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: actions/login.php:1030
+#: actions/login.php:1086
+msgid "Leave empty to reload the current page."
+msgstr "वर्तमान पृष्ठ को फिर से लोड करने के लिए खाली छोड़ दें।"
+
+#: actions/login.php:1037
+msgid "Additional Options"
+msgstr "अतिरिक्त विकल्प"
+
+#: actions/login.php:1045
+msgid "URL to redirect default Login page"
+msgstr ""
+
+#: actions/login.php:1048
+#: actions/login.php:1083
+msgid "https://yoursite.com/login"
+msgstr ""
+
+#: actions/login.php:1050
+msgid "<span style=\"color: orangered\">WARNING</span> : It redirects the default <strong>wp-login.php</strong> page to the the page url you entered above. So before changing it, check if your new Login form works perfectly."
+msgstr "<span style=\"color: orangered\">चेतावनी:</span> यह आपके द्वारा दर्ज किए गए पृष्ठ यूआरएल पर <strong>डिफ़ॉल्ट wp-login.php</strong> पृष्ठ को रीडायरेक्ट करता है। इसलिए इसे बदलने से पहले यह जांच लें कि आपका नया लॉगिन फॉर्म पूरी तरह से काम करता है या नहीं।"
+
+#: actions/login.php:1058
+#: actions/profile.php:757
+#: actions/register.php:1788
+#: actions/reset-pass.php:773
+msgid "Additional Settings"
+msgstr "अतिरिक्त सेटिंग्स"
+
+#: actions/login.php:1069
+msgid "Display Logout Link"
+msgstr "डिस्प्ले लॉगआउट लिंक"
+
+#: actions/login.php:1072
+#: classes/common.php:103
+msgid "Hide"
+msgstr "छुपाना"
+
+#: actions/login.php:1073
+#: classes/common.php:102
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: actions/login.php:1074
+msgid "A logout link will be visible in place of the Login form."
+msgstr "लॉगइन फॉर्म के स्थान पर एक लॉगआउट लिंक दिखाई देगा।"
+
+#: actions/login.php:1080
+msgid "URL to redirect users after Logout"
+msgstr ""
+
+#: actions/login.php:1095
+msgid "Logout Template"
+msgstr ""
+
+#: actions/login.php:1102
+msgid "Available shortcodes are [ap-username], [ap-firstname], [ap-lastname], [ap-name], [ap-email], [ap-logout-url]"
+msgstr ""
+
+#: actions/login.php:1126
+#: actions/register.php:1888
+#: actions/reset-pass.php:832
+msgid "You are already logged-in"
+msgstr "आप पहले से ही लॉग-इन कर रहे हैं"
+
+#: actions/login.php:1157
+msgid "Enter your login id"
+msgstr "अपनी लॉगइन आईडी डालें"
+
+#: actions/login.php:1167
+#: actions/login.php:1254
+msgid "Enter your password"
+msgstr "अपना पासवर्ड डालें"
+
+#: actions/login.php:1242
+msgid "User doesn't exit. Try again!"
+msgstr "उपयोगकर्ता बाहर नहीं निकलता है। फिर कोशिश करो!"
+
+#: actions/profile.php:156
+msgid "Username already exists. Try another."
+msgstr "उपयोगकर्ता नाम पहले से मौजूद है। एक और कोशिश करो।"
+
+#: actions/profile.php:169
+msgid "Email already exists. Try another."
+msgstr "ईमेल पहले से मौजूद है। एक और कोशिश करो।"
+
+#: actions/profile.php:177
+msgid "Phone already exists. Try another."
+msgstr "फोन पहले से ही मौजूद है। एक और कोशिश करो।"
+
+#: actions/profile.php:406
+#: actions/profile.php:799
+msgid "You don't have permission to edit the profile."
+msgstr "आपके पास प्रोफ़ाइल को संपादित करने की अनुमति नहीं है।"
+
+#: actions/profile.php:447
+#: actions/profile.php:455
+msgid "Edit Profile"
+msgstr "प्रोफाइल संपादित करें"
+
+#: actions/profile.php:465
+msgid "Profile Fields"
+msgstr "प्रोफाइल फ़ील्ड"
+
+#: actions/profile.php:486
+#: actions/register.php:1636
+msgid "User Field"
+msgstr "उपयोगकर्ता फ़ील्ड"
+
+#: actions/profile.php:495
+#: actions/register.php:1645
+#: classes/Dynamic_Tags/Image_Meta.php:31
+#: classes/Dynamic_Tags/Url_Meta.php:31
+msgid "Meta Key"
+msgstr "मेटा की"
+
+#: actions/profile.php:506
+msgid "Editable"
+msgstr "संपादन योग्य"
+
+#: actions/profile.php:508
+#: actions/profile.php:534
+#: actions/profile.php:565
+#: actions/register.php:1852
+#: actions/reset-pass.php:788
+#: actions/zoho-crm.php:558
+#: classes/common.php:452
+msgid "No"
+msgstr "नहीं"
+
+#: actions/profile.php:509
+#: actions/profile.php:535
+#: actions/profile.php:566
+#: actions/register.php:1851
+#: actions/reset-pass.php:787
+#: classes/common.php:451
+msgid "Yes"
+msgstr "हाँ"
+
+#: actions/profile.php:532
+msgid "Require User Approval"
+msgstr "उपयोगकर्ता अनुमोदन की आवश्यकता है"
+
+#: actions/profile.php:563
+msgid "Require Admin Approval"
+msgstr "व्यवस्थापक अनुमोदन की आवश्यकता है"
+
+#: actions/profile.php:594
+msgid "<strong>Map the form fields with your user fields</strong>"
+msgstr ""
+
+#: actions/profile.php:622
+msgid "Approval Settings"
+msgstr "अनुमोदन सेटिंग्स"
+
+#: actions/profile.php:633
+msgid "Email Settings (User)"
+msgstr "ईमेल सेटिंग्स (उपयोगकर्ता)"
+
+#: actions/profile.php:642
+msgid "Email to be sent to the Users asking for their approval by clicking on a confirmation link when they change any value on their profile."
+msgstr "उपयोगकर्ताओं को ईमेल भेजा जाएगा कि वे अपनी प्रोफ़ाइल पर कोई मूल्य बदलने पर पुष्टिकरण लिंक पर क्लिक करके उनकी मंजूरी की मांग करें।"
+
+#: actions/profile.php:671
+msgid "Approve changes on your profile"
+msgstr "अपनी प्रोफ़ाइल पर परिवर्तनों को मंसीं मंे"
+
+#: actions/profile.php:672
+msgid "Approve changes your profile"
+msgstr "अपनी प्रोफ़ाइल में परिवर्तनों को मंी लेते हैं"
+
+#: actions/profile.php:681
+#: actions/profile.php:682
+msgid "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Hello [username],</td></tr><tr><td style=\"padding:10px 0 10px 0;\">You recently requested to change following information on your profile.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[pending-data]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">To change your profile information you need to confirm it by clicking on the button below.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">CONFIRM</span></a></td></tr></table></td></tr></table>"
+msgstr "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">नमस्ते [उपयोगकर्ता नाम],</td></tr><tr><td style=\"padding:10px 0 10px 0;\">आपने हाल ही में अपनी प्रोफ़ाइल के बारे में निम्नलिखित जानकारी बदलने का अनुरोध किया है।</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[लंबित डेटा]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">अपनी प्रोफ़ाइल जानकारी को बदलने के लिए आपको नीचे दिए गए बटन पर क्लिक करके इसकी पुष्टि करनी होगी।</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">पुष्टि</span></a></td></tr></table></td></tr></table>"
+
+#: actions/profile.php:690
+msgid "Email Settings (Admin)"
+msgstr "ईमेल सेटिंग्स (व्यवस्थापक)"
+
+#: actions/profile.php:699
+msgid "Email to be sent to an Admin asking for approval by clicking on a confirmation link when users change any value on their profile."
+msgstr "जब उपयोगकर्ता अपनी प्रोफ़ाइल पर कोई मूल्य बदलते हैं तो पुष्टिकरण लिंक पर क्लिक करके अनुमोदन के लिए किसी व्यवस्थापक को ईमेल भेजा जाएगा।"
+
+#: actions/profile.php:726
+msgid "To Email"
+msgstr "ईमेल करने के लिए"
+
+#: actions/profile.php:738
+msgid "Approve changes on user profile"
+msgstr "उपयोगकर्ता प्रोफ़ाइल पर परिवर्तन को मंजूरी"
+
+#: actions/profile.php:748
+#: actions/profile.php:749
+msgid "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Hello admin,</td></tr><tr><td style=\"padding:10px 0 10px 0;\"><a href=\"[profile-link]\">[username]</a> requested to change following information on the profile.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[pending-data]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">To change the information on profile you need to confirm it by clicking on the button below.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">CONFIRM</span></a></td></tr></table></td></tr></table>"
+msgstr "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">नमस्ते व्यवस्थापक,</td></tr><tr><td style=\"padding:10px 0 10px 0;\"><a href=\"[profile-link]\">[उपयोगकर्ता नाम]</a> प्रोफ़ाइल पर जानकारी के बाद बदलने का अनुरोध किया ।</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[लंबित डेटा]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">प्रोफाइल पर जानकारी बदलने के लिए आपको नीचे दिए गए बटन पर क्लिक करके इसकी पुष्टि करनी होगी।</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">पुष्टि</span></a></td></tr></table></td></tr></table>"
+
+#: actions/profile.php:768
+msgid "Change Default profile URL"
+msgstr ""
+
+#: actions/profile.php:770
+msgid "Enter the URL of your newly created profile page. This will redirect the default edit profile url to the new one and adds an <strong>Edit User</strong> link on your users table."
+msgstr ""
+
+#: actions/profile.php:903
+msgid "An email has been sent you with the instructions to confirm changes in your "
+msgstr "आपके में परिवर्तन की पुष्टि करने के लिए आपको निर्देशों के साथ एक ईमेल भेजा गया है "
+
+#: actions/profile.php:903
+msgid ". Please check your inbox.</br>"
+msgstr ". कृपया अपना इनबॉक्स.</br> देखें"
+
+#: actions/profile.php:910
+msgid "<strong>Note: </strong>Changes in your "
+msgstr "<strong>नोट:</strong> आपके में परिवर्तन "
+
+#: actions/profile.php:910
+msgid " needs to be approved by our Team. Once approved it will be automatically updated."
+msgstr " हमारी टीम द्वारा अनुमोदित किए जाने की आवश्यकता है। एक बार मंजूरी दे दी यह स्वचालित रूप से अद्यतन किया जाएगा ।"
+
+#: actions/profile.php:934
+msgid "An error occurred with your password field. Current Password can not be empty."
+msgstr ""
+
+#: actions/profile.php:937
+msgid "An error occurred with your password field. Your current password is incorrect."
+msgstr ""
+
+#: actions/profile.php:942
+#: actions/profile.php:954
+msgid "An error occurred with your password field. You must enter a password."
+msgstr ""
+
+#: actions/profile.php:949
+msgid "New password and Repeat password fields do not match. Try it again."
+msgstr ""
+
+#: actions/register.php:158
+msgid "Invalid Email Address"
+msgstr "अमान्य ईमेल पता"
+
+#: actions/register.php:166
+msgid "Sorry, that %s is already used!"
+msgstr "क्षमा करें, कि % एस पहले से ही प्रयोग किया जाता है!"
+
+#: actions/register.php:170
+msgid "Invalid Phone Number"
+msgstr "अमान्य फोन नंबर"
+
+#: actions/register.php:175
+#: actions/register.php:340
+#: actions/register.php:376
+msgid "Limit Exceeded"
+msgstr "सीमा पार"
+
+#: actions/register.php:181
+#: actions/register.php:225
+msgid "Updated"
+msgstr "अद्यतन"
+
+#: actions/register.php:237
+#: actions/register.php:303
+msgid "Something went wrong. Please try again!"
+msgstr ""
+
+#: actions/register.php:336
+msgid "Email Notification not configured properly"
+msgstr ""
+
+#: actions/register.php:413
+msgid " Verified"
+msgstr " सत्यापित"
+
+#: actions/register.php:415
+msgid "Invalid Code. Try again."
+msgstr "अमान्य कोड। फिर कोशिश करो."
+
+#: actions/register.php:570
+msgid "Mark Manually verified"
+msgstr ""
+
+#: actions/register.php:574
+msgid "Mark Email Verified"
+msgstr ""
+
+#: actions/register.php:575
+msgid "Mark Email Not Verified"
+msgstr ""
+
+#: actions/register.php:576
+msgid "Send Verification Email"
+msgstr ""
+
+#: actions/register.php:580
+msgid "Mark Phone Verified"
+msgstr ""
+
+#: actions/register.php:581
+msgid "Mark Phone Not Verified"
+msgstr ""
+
+#: actions/register.php:582
+msgid "Send Verification SMS"
+msgstr ""
+
+#: actions/register.php:704
+msgid "%s user verified."
+msgid_plural "%s users verified."
+msgstr[0] "% उपयोगकर्ता सत्यापित।"
+msgstr[1] "% एस उपयोगकर्ताओं को सत्यापित किया।"
+
+#: actions/register.php:713
+msgid "%s Email marked as Verified."
+msgid_plural "%s Emails marked as Verified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:722
+msgid "%s Email marked as Not Verified."
+msgid_plural "%s Emails marked as Not Verified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:734
+msgid "Verification Email has been sent to %s user."
+msgid_plural "Verification Email has been sent to %s users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:745
+msgid "%s Phone marked as Verified."
+msgid_plural "%s Phone marked as Verified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:754
+msgid "%s Phone marked as Not Verified."
+msgid_plural "%s Phone marked as Not Verified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:766
+msgid "Verification SMS has been sent to %s user."
+msgid_plural "Verification SMS has been sent to %s users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: actions/register.php:1094
+#: actions/register.php:1102
+msgid "Register"
+msgstr "पंजीकृत करें"
+
+#: actions/register.php:1112
+msgid "User Role"
+msgstr "उपयोगकर्ता भूमिका"
+
+#: actions/register.php:1127
+msgid "Username <span class=\"ap-required\">*</span>"
+msgstr "उपयोगकर्ता नाम <span class=\"ap-required\">*</span>"
+
+#: actions/register.php:1147
+#: actions/register.php:1214
+msgid "Auto Generate"
+msgstr "ऑटो जेनरेट"
+
+#: actions/register.php:1149
+#: actions/register.php:1188
+#: actions/register.php:1216
+#: actions/register.php:1274
+#: actions/register.php:1344
+#: actions/register.php:1449
+#: actions/register.php:1518
+#: actions/register.php:1706
+#: actions/register.php:1801
+#: actions/register.php:1815
+#: actions/register.php:1866
+#: classes/common.php:126
+#: classes/common.php:151
+msgid "Enable"
+msgstr "सक्षम"
+
+#: actions/register.php:1150
+#: actions/register.php:1189
+#: actions/register.php:1217
+#: actions/register.php:1275
+#: actions/register.php:1345
+#: actions/register.php:1450
+#: actions/register.php:1519
+#: actions/register.php:1707
+#: actions/register.php:1802
+#: actions/register.php:1816
+#: actions/register.php:1867
+#: classes/common.php:127
+#: classes/common.php:152
+msgid "Disable"
+msgstr "अक्षम"
+
+#: actions/register.php:1186
+msgid "Confirm Password"
+msgstr "पासवर्ड की पुष्टि करें"
+
+#: actions/register.php:1220
+msgid "It automatically generate a random password. Use shortcode [ap-autogen-password] to send it over email or message."
+msgstr "यह स्वचालित रूप से एक यादृच्छिक पासवर्ड उत्पन्न करता है। इसे ईमेल या मैसेज पर भेजने के लिए शॉर्टकोड [एपी-ऑटोजेन-पासवर्ड] का इस्तेमाल करें।"
+
+#: actions/register.php:1226
+msgid "Length"
+msgstr "लंबाई"
+
+#: actions/register.php:1252
+msgid "Email"
+msgstr "ईमेल"
+
+#: actions/register.php:1272
+#: actions/register.php:1447
+msgid "Verification"
+msgstr "सत्यापन"
+
+#: actions/register.php:1285
+#: actions/register.php:1460
+msgid "Verification Via"
+msgstr "सत्यापन के माध्यम से"
+
+#: actions/register.php:1302
+msgid "You must enable the %s option below and paste the shortcode %s in the message box to send a unique link or otp to verify user's Email ID."
+msgstr "आपको नीचे दिए गए % एस विकल्प को सक्षम करना होगा और उपयोगकर्ता की ईमेल आईडी को सत्यापित करने के लिए एक अद्वितीय लिंक या ओटीपी भेजने के लिए संदेश बॉक्स में शॉर्टकोड% पेस्ट करना होगा।"
+
+#: actions/register.php:1327
+#: actions/register.php:1502
+msgid "Redirection URL"
+msgstr "रीडायरेक्शन यूआरएल"
+
+#: actions/register.php:1336
+msgid "Where users should be redirected after successful verification of Email ID. Leave empty for current page."
+msgstr "जहां ईमेल आईडी के सफल सत्यापन के बाद उपयोगकर्ताओं को रीडायरेक्ट किया जाना चाहिए। वर्तमान पृष्ठ के लिए खाली छोड़ दें।"
+
+#: actions/register.php:1342
+#: actions/register.php:1516
+msgid "Notification"
+msgstr "सूचना"
+
+#: actions/register.php:1412
+msgid "Thank you for registering to our site."
+msgstr "हमारी साइट पर पंजीकरण के लिए धन्यवाद।"
+
+#: actions/register.php:1413
+#: actions/register.php:1610
+msgid "To send form fields, copy the shortcode that appears inside advanced section of each field and paste it above."
+msgstr "फॉर्म फ़ील्ड भेजने के लिए, प्रत्येक फ़ील्ड के उन्नत अनुभाग के अंदर दिखाई देने वाले शॉर्टकोड को कॉपी करें और इसे ऊपर चिपका दें।"
+
+#: actions/register.php:1427
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: actions/register.php:1477
+msgid "You must enable the %s option below and paste the shortcode %s in the message box to send a unique link or otp to verify user's Phone Number."
+msgstr "आपको नीचे दिए गए % एस विकल्प को सक्षम करना होगा और उपयोगकर्ता के फोन नंबर को सत्यापित करने के लिए एक अद्वितीय लिंक या ओटीपी भेजने के लिए संदेश बॉक्स में शॉर्टकोड % पेस्ट करना होगा।"
+
+#: actions/register.php:1510
+msgid "Where users should be redirected after successful verification of Phone Number. Leave empty for current page."
+msgstr "जहां उपयोगकर्ताओं को फोन नंबर के सफल सत्यापन के बाद रीडायरेक्ट किया जाना चाहिए। वर्तमान पृष्ठ के लिए खाली छोड़ दें।"
+
+#: actions/register.php:1529
+msgid "SMS API"
+msgstr "एसएमएस एपीआई"
+
+#: actions/register.php:1608
+#: actions/register.php:1609
+msgid "Thank you for registering. Please verify your Phone number using this %s link/otp before you login to our site."
+msgstr "पंजीकरण के लिए धन्यवाद। कृपया हमारी साइट पर लॉगिन करने से पहले इस % लिंक/ओटीपी का उपयोग करके अपना फोन नंबर सत्यापित करें।"
+
+#: actions/register.php:1624
+msgid "Additional Fields"
+msgstr "अतिरिक्त फ़ील्ड"
+
+#: actions/register.php:1665
+#: actions/zoho-crm.php:628
+msgid "Fields Mapping"
+msgstr "फील्ड्स मैपिंग"
+
+#: actions/register.php:1693
+#: actions/register.php:1704
+msgid "Manual Verification"
+msgstr "मैनुअल सत्यापन"
+
+#: actions/register.php:1712
+msgid "If you enable this option, users can't login to your site until you manually verify them <a href=\""
+msgstr "यदि आप इस विकल्प को सक्षम करते हैं, तो उपयोगकर्ता आपकी साइट पर तब तक लॉगिन नहीं कर सकते जब तक आप मैन्युअल रूप से उन्हें सत्यापित नहीं करते <a href=\""
+
+#: actions/register.php:1746
+#: actions/register.php:1747
+msgid "Your Account has been successfully verified"
+msgstr "आपके खाते को सफलतापूर्वक सत्यापित किया गया है"
+
+#: actions/register.php:1775
+#: actions/register.php:1776
+msgid "We completed verifying your Account. Now you will be able to login to our site."
+msgstr "हमने आपके खाते की पुष्टि पूरी की. अब आप हमारी साइट पर लॉगइन कर सकेंगे।"
+
+#: actions/register.php:1799
+msgid "Auto-Login"
+msgstr "ऑटो-लॉगिन"
+
+#: actions/register.php:1807
+msgid "It allows users to login automatically as soon as they complete the registration process. Redirection option below should be enabled to auto refresh the page after login."
+msgstr "यह पंजीकरण प्रक्रिया पूरी करते ही उपयोगकर्ताओं को स्वचालित रूप से लॉगिन करने की अनुमति देता है। नीचे दिए गए रीडायरेक्शन विकल्प को लॉगिन करने के बाद पेज को ताज़ा करने के लिए सक्षम होना चाहिए।"
+
+#: actions/register.php:1821
+msgid "The page where should the users be redirected after filling up the registration form."
+msgstr "जिस पेज पर रजिस्ट्रेशन फॉर्म भरने के बाद यूजर्स को रीडायरेक्ट किया जाना चाहिए।"
+
+#: actions/register.php:1827
+msgid "Redirect To"
+msgstr "रीडायरेक्ट करने के लिए"
+
+#: actions/register.php:1840
+msgid "Leave empty for current page redirection."
+msgstr "वर्तमान पृष्ठ पुनर्निर्देशन के लिए खाली छोड़ दें।"
+
+#: actions/register.php:1849
+#: actions/reset-pass.php:785
+msgid "Hide Form"
+msgstr "फॉर्म छुपाएं"
+
+#: actions/register.php:1857
+msgid "Hide this Form for logged-in users. The option does not work for Editor mode."
+msgstr "लॉग-इन उपयोगकर्ताओं के लिए इस फॉर्म को छिपाएं। विकल्प संपादक मोड के लिए काम नहीं करता है।"
+
+#: actions/register.php:1864
+msgid "Stop Next Actions"
+msgstr "अगले क्रियाएं बंद करो"
+
+#: actions/register.php:1872
+msgid "If you enable this option, other Actions won't be executed on failure of user registration."
+msgstr "यदि आप इस विकल्प को सक्षम करते हैं, तो उपयोगकर्ता पंजीकरण की विफलता पर अन्य क्रियाओं को निष्पादित नहीं किया जाएगा।"
+
+#: actions/register.php:1923
+msgid "Username field can not be empty."
+msgstr "उपयोगकर्ता नाम फ़ील्ड खाली नहीं हो सकता है।"
+
+#: actions/register.php:1936
+#: actions/register.php:1954
+msgid "Password field can not be empty."
+msgstr "पासवर्ड फ़ील्ड खाली नहीं हो सकता है।"
+
+#: actions/register.php:1948
+msgid "Both Password fields should be matched"
+msgstr "दोनों पासवर्ड फ़ील्ड का मिलान किया जाना चाहिए"
+
+#: actions/register.php:1964
+msgid "Email field is not configured properly!"
+msgstr "ईमेल फ़ील्ड ठीक से कॉन्फ़िगर नहीं किया गया है!"
+
+#: actions/register.php:1969
+msgid "Email field is required!"
+msgstr "ईमेल फ़ील्ड की आवश्यकता है!"
+
+#: actions/register.php:1983
+msgid "Phone field is not configured properly!"
+msgstr "फोन फ़ील्ड ठीक से कॉन्फ़िगर नहीं है!"
+
+#: actions/register.php:1988
+msgid "Phone number is required!"
+msgstr "फोन नंबर की आवश्यकता है!"
+
+#: actions/register.php:1994
+msgid "Sorry, that phone number is already used!"
+msgstr "क्षमा करें, कि फोन नंबर पहले से ही प्रयोग किया जाता है!"
+
+#: actions/reset-pass.php:52
+msgid "User does not exist."
+msgstr "उपयोगकर्ता मौजूद नहीं है।"
+
+#: actions/reset-pass.php:56
+msgid "Invalid nonce"
+msgstr "अमान्य नाके"
+
+#: actions/reset-pass.php:500
+#: actions/reset-pass.php:517
+msgid "Reset Password"
+msgstr "रीसेट पासवर्ड"
+
+#: actions/reset-pass.php:527
+msgid "Login ID <span class=\"ap-required\">*</span>"
+msgstr "लॉगिन आईडी <span class=\"ap-required\">*</span>"
+
+#: actions/reset-pass.php:539
+msgid "<span style=\"color: #ef0a1d\">Note</span>: The password field will be automatically hidden on frontend and only be visible when users click on the reset password link."
+msgstr "<span style=\"color: #ef0a1d\">नोट:</span>पासवर्ड फ़ील्ड अपने आप फ्रंटएंड पर छिपा होगा और केवल तभी दिखाई देगा जब उपयोगकर्ता रीसेट पासवर्ड लिंक पर क्लिक करें।"
+
+#: actions/reset-pass.php:546
+#, fuzzy
+msgid "Reset Through"
+msgstr "रीसेट के माध्यम से <span class=\"ap-required\">*</span>"
+
+#: actions/reset-pass.php:578
+msgid "Link/OTP Send Via"
+msgstr "लिंक/ओटीपी के माध्यम से भेजें"
+
+#: actions/reset-pass.php:627
+msgid "From"
+msgstr "से"
+
+#: actions/reset-pass.php:660
+#: actions/reset-pass.php:661
+#: actions/reset-pass.php:763
+#: actions/reset-pass.php:764
+msgid "Hi, Use the following link/otp [ap-reset-pass] to reset your password"
+msgstr "हाय, अपना पासवर्ड रीसेट करने के लिए निम्नलिखित लिंक/ओटीपी [एपी-रीसेट-पास] का उपयोग करें"
+
+#: actions/reset-pass.php:792
+msgid "Hide this Form for logged-in users. The option does not work in Editor mode."
+msgstr "लॉग-इन उपयोगकर्ताओं के लिए इस फॉर्म को छिपाएं। विकल्प संपादक मोड में काम नहीं करता है।"
+
+#: actions/reset-pass.php:852
+msgid "Blank password is not allowed."
+msgstr "ब्लैंक पासवर्ड की अनुमति नहीं है।"
+
+#: actions/reset-pass.php:873
+msgid "Invalid or Expired link"
+msgstr "अमान्य या समाप्त हो चुका है लिंक"
+
+#: actions/reset-pass.php:907
+msgid "Please check your %s for the instructions to reset your password."
+msgstr "कृपया अपना पासवर्ड रीसेट करने के निर्देशों के लिए अपना % एस देखें।"
+
+#: actions/reset-pass.php:928
+msgid "User doesn't exist. Try again!"
+msgstr "उपयोगकर्ता मौजूद नहीं है। फिर कोशिश करो!"
+
+#: actions/sms.php:59
+msgid "to get your Twilio Account SID, Auth Token and Phone Number."
+msgstr "अपने Twilio खाता सिड, ऑथ टोकन और फोन नंबर प्राप्त करने के लिए।"
+
+#: actions/sms.php:160
+msgid "To Number"
+msgstr "संख्या के लिए"
+
+#: actions/sms.php:174
+msgid "You may enter any shortcode here. If you want to send form field individually, copy the shortcode that appears inside each field and paste it above."
+msgstr "आप यहां कोई भी शॉर्टकोड दर्ज कर सकते हैं। यदि आप व्यक्तिगत रूप से फॉर्म फ़ील्ड भेजना चाहते हैं, तो प्रत्येक फ़ील्ड के अंदर दिखाई देने वाले शॉर्टकोड को कॉपी करें और उसे ऊपर चिपका दें।"
+
+#: actions/sms.php:223
+msgid "Something went wrong. Try again later."
+msgstr "कुछ गलत हो गया । बाद में फिर से प्रयास करें।"
+
+#: actions/zoho-crm.php:26
+#: actions/zoho-crm.php:381
+msgid "Zoho CRM"
+msgstr "जोहो सीआरएम"
+
+#: actions/zoho-crm.php:282
+msgid "Mandatory Field <strong>"
+msgstr "अनिवार्य फ़ील्ड<strong>"
+
+#: actions/zoho-crm.php:282
+msgid "</strong> is Missing"
+msgstr "</strong> लापता है"
+
+#: actions/zoho-crm.php:285
+msgid "Invalid Data was Entered for Field: <strong>"
+msgstr "फील्ड:<strong> के लिए अमान्य डेटा दर्ज किया गया था"
+
+#: actions/zoho-crm.php:288
+msgid "already exists."
+msgstr "पहले से ही मौजूद है।"
+
+#: actions/zoho-crm.php:346
+msgid "<hr id=\"ap_zoho_crm\">Zoho CRM"
+msgstr "<hr id=\"ap_zoho_crm\">जोहो सीआरएम"
+
+#: actions/zoho-crm.php:348
+msgid "Enable Zoho CRM API <a href=\"%s\" target=\"_blank\">here</a>, add a client, choose <strong>Server-based Applications</strong>, give a name, enter your home page url, paste <span class=\"ap_zoho_crm_redirect_uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "<a href=\"%s\" target=\"_blank\">यहां</a>Zoho CRM एपीआई सक्षम करें, एक ग्राहक जोड़ें, <strong>सर्वर आधारित अनुप्रयोगों</strong>का चयन करें, एक नाम दें, अपना होम पेज यूआरएल दर्ज करें, रीडायरेक्ट उड़ी के रूप में <span class=\"ap_zoho_crm_redirect_uri\"><strong>%</strong></span> पेस्ट करें और क्रेडेंशियल्स प्राप्त करें।"
+
+#: actions/zoho-crm.php:431
+msgid "Enable Zoho CRM API <a  style=\"color: #0b76ef\" href=\"%s\" target=\"_blank\">here</a>, add a client, choose <strong>Server-based Applications</strong>, give a name, enter your home page url, paste <span class=\"ap_zoho_crm_redirect_uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "<a style=\"color: #0b76ef\" href=\"%s\" target=\"_blank\">यहां</a>Zoho CRM एपीआई सक्षम करें, एक ग्राहक जोड़ें, <strong>सर्वर आधारित अनुप्रयोगों</strong>का चयन करें, एक नाम दें, अपना होम पेज यूआरएल दर्ज करें, रीडायरेक्ट उड़ी के रूप में <span class=\"ap_zoho_crm_redirect_uri\"><strong>%</strong></span> पेस्ट करें और क्रेडेंशियल्स प्राप्त करें।"
+
+#: actions/zoho-crm.php:532
+msgid "Module Settings <span class=\"ap-required\">*</span>"
+msgstr "मॉड्यूल सेटिंग्स <span class=\"ap-required\">*</span>"
+
+#: actions/zoho-crm.php:544
+msgid "Zoho Module"
+msgstr "जोहो मॉड्यूल"
+
+#: actions/zoho-crm.php:556
+msgid "Update Duplicate"
+msgstr "डुप्लीकेट अपडेट करें"
+
+#: actions/zoho-crm.php:559
+msgid "yes"
+msgstr "हाँ"
+
+#: actions/zoho-crm.php:562
+msgid "When a duplicate entry is found no error will be thrown. The old record will be updated with new information."
+msgstr "डुप्लीकेट एंट्री पाए जाने पर कोई त्रुटि नहीं फेंकी जाएगी । पुरानी रिकॉर्ड को नई जानकारी के साथ अपडेट किया जाएगा।"
+
+#: actions/zoho-crm.php:569
+msgid "Trigger Actions"
+msgstr "ट्रिगर कार्रवाई"
+
+#: actions/zoho-crm.php:573
+msgid "Approval"
+msgstr "अनुमोदन"
+
+#: actions/zoho-crm.php:574
+msgid "Workflow"
+msgstr "वर्कफ़्लो"
+
+#: actions/zoho-crm.php:575
+msgid "Blueprint"
+msgstr "खाका"
+
+#: actions/zoho-crm.php:578
+msgid "Automated actions like workflow, approval and blueprint can be triggered for all the records inserted or updated."
+msgstr "कार्यप्रवाह, अनुमोदन और ब्लूप्रिंट जैसी स्वचालित कार्रवाइयों को डाले या अपडेट किए गए सभी रिकॉर्ड के लिए ट्रिगर किया जा सकता है।"
+
+#: actions/zoho-crm.php:619
+msgid "Module Field"
+msgstr "मॉड्यूल फील्ड"
+
+#: classes/common.php:56
+msgid "Pattern"
+msgstr "पैटर्न"
+
+#: classes/common.php:75
+msgid "Pattern Message"
+msgstr "पैटर्न संदेश"
+
+#: classes/common.php:80
+msgid "Please match the requested format"
+msgstr "कृपया अनुरोध किए गए प्रारूप से मेल करें"
+
+#: classes/common.php:97
+msgid "Preview Toggle"
+msgstr "पूर्वावलोकन टॉगल"
+
+#: classes/common.php:121
+#: classes/common.php:307
+msgid "File Preview"
+msgstr "फाइल पूर्वावलोकन"
+
+#: classes/common.php:138
+msgid "You can customize the preview image on style tab > Additional Style"
+msgstr "आप स्टाइल टैब > अतिरिक्त शैली पर पूर्वावलोकन छवि को अनुकूलित कर सकते हैं"
+
+#: classes/common.php:146
+msgid "Country Code"
+msgstr "देश कोड"
+
+#: classes/common.php:236
+msgid "Edit"
+msgstr "संपादित"
+
+#: classes/common.php:299
+msgid "Additional Styles"
+msgstr "अतिरिक्त शैलियों"
+
+#: classes/common.php:329
+msgid "Width"
+msgstr "चौड़ाई"
+
+#: classes/common.php:356
+msgid "Height"
+msgstr "ऊंचाई"
+
+#: classes/common.php:383
+msgid "Object Fit"
+msgstr "ऑब्जेक्ट फिट"
+
+#: classes/common.php:390
+msgid "Fill"
+msgstr "भरना"
+
+#: classes/common.php:391
+msgid "Cover"
+msgstr "आवरण"
+
+#: classes/common.php:392
+msgid "Contain"
+msgstr "शामिल"
+
+#: classes/common.php:436
+#: classes/common.php:449
+msgid "Floating Label"
+msgstr "फ्लोटिंग लेबल"
+
+#: classes/common.php:456
+msgid "You must set label for each form fields and remove placeholders. Works only on frontend."
+msgstr "आपको प्रत्येक फ़ील्ड के लिए लेबल सेट करना होगा और प्लेसहोल्डर्स को हटाना होगा. केवल फ्रंटएंड पर काम करता है।"
+
+#: classes/Custom_Templates.php:20
+msgid "Actions Pack Templates"
+msgstr "क्रियाएं पैक टेम्पलेट्स"
+
+#: classes/Dynamic_Tags/Image_Meta.php:16
+msgid "Image Meta"
+msgstr "छवि मेटा"
+
+#: classes/Dynamic_Tags/Url_Meta.php:16
+msgid "URL Meta"
+msgstr "यूआरएल मेटा"
+
+#: init.php:76
+msgid "Account"
+msgstr "खाता"
+
+#: init.php:77
+msgid "Support"
+msgstr "समर्थन"
+
+#: init.php:79
+msgid "Upgrade"
+msgstr "नवीनीकरण"
+
+#. translators: 1: Plugin name 2: Elementor  3: Elementor Pro
+#: plugin.php:106
+msgid "\"%1$s\" requires \"%2$s\" & \"%3$s\" to be installed and activated."
+msgstr "\"% 1 $ एस\" को स्थापित और सक्रिय करने के लिए \"% 2$ एस\" और \"% 3$ एस\" की आवश्यकता होती है।"
+
+#: plugin.php:108
+#: plugin.php:124
+msgid "Elementor"
+msgstr "एलिमेंटर"
+
+#: plugin.php:109
+#: plugin.php:126
+msgid "Elementor Pro"
+msgstr "एलिमेंटर प्रो"
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version 4: Elementor Pro 5: Required Elementor Pro version
+#: plugin.php:122
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater and \"%4$s\" version %5$s or greater."
+msgstr "\"% 1 $ एस\" की आवश्यकता है \"% 2 $ एस\" संस्करण % 3 $ एस या अधिक और \"% 4 $ एस\" संस्करण % 5 $ या उससे अधिक।"
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: plugin.php:140
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"% 1 $ एस\" की आवश्यकता है \"% 2 $ एस\" संस्करण % 3 $ एस या उससे अधिक।"
+
+#: plugin.php:142
+msgid "PHP"
+msgstr "Php"
